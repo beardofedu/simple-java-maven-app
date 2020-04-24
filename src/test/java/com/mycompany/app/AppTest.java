@@ -16,7 +16,7 @@ public class AppTest
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
-    public void () {
+    public void setUpStreams() {
         System.setOut(new PrintStream(outContent));
     }
 
