@@ -45,4 +45,5 @@ public class AppTest
         System.setOut(null);
     }
 
-}
+/** }
+*/
